@@ -7,17 +7,18 @@ html{
 }
 
 .header{
-    height: 10rem;
-    color: darkmagenta;
+    height: 20vh;
+    color: rgb(175, 14, 175);
     position: absolute;
     text-transform: uppercase;
 }
 .header-text{
     position: absolute;
     top: 50%;
-    Left: 500%;
+    Left: 950%;
     font-family: 'Permanent Marker', cursive;
     z-index: 1000;
+    letter-spacing: 50px;
 }
 
 .box{
@@ -25,12 +26,12 @@ position: relative;
 background-color: gray;
 height: 10vh;
 width: 10vh;
-margin: 0% auto;
+margin: 10% auto;
 }
 .img{
     position: absolute;
-    top: 20%;
-    left: 500%;
+    top: 100%;
+    left: 700%;
 }
 #parent{
     height: 80vh;
@@ -38,5 +39,7 @@ margin: 0% auto;
 #child{
     z-index: 200;
     height: 20vh;
+    filter: grayscale(70%);
+ 
 }
     
