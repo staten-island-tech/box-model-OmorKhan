@@ -1,45 +1,43 @@
-html{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
-    background-color: gray;
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: gray;
 }
 
-.header{
-    height: 20vh;
-    color: rgb(175, 14, 175);
-    position: absolute;
-    text-transform: uppercase;
+.header {
+  height: 20vh;
+  color: rgb(175, 14, 175);
+  position: absolute;
+  text-transform: uppercase;
 }
-.header-text{
-    position: absolute;
-    top: 50%;
-    Left: 950%;
-    font-family: 'Permanent Marker', cursive;
-    z-index: 1000;
-    letter-spacing: 50px;
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 950%;
+  font-family: "Permanent Marker", cursive;
+  z-index: 1000;
+  letter-spacing: 50px;
 }
 
-.box{
-position: relative;
-background-color: gray;
-height: 10vh;
-width: 10vh;
-margin: 10% auto;
+.box {
+  position: relative;
+  background-color: gray;
+  height: 10vh;
+  width: 10vh;
+  margin: 10% auto;
 }
-.img{
-    position: absolute;
-    top: 100%;
-    left: 700%;
+.img {
+  position: absolute;
+  top: 100%;
+  left: 700%;
 }
-#parent{
-    height: 80vh;
+#parent {
+  height: 80vh;
 }
-#child{
-    z-index: 200;
-    height: 20vh;
-    filter: grayscale(70%);
- 
+#child {
+  z-index: 200;
+  height: 20vh;
+  filter: grayscale(70%);
 }
-    
